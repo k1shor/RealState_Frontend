@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+  <title>React App</title>
+
+  <!-- bootstrap css CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- bootstrap icons CDN  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+  <!-- react slick  -->
+  <link rel="stylesheet" type="text/css" charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
+  <!-- boxicon  -->
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-transform: capitalize;
+      /* color: blue !important; */
+    }
+
+    .bx-flashing-hover{
+      animation-iteration-count: 2;
+
+    }
+
+
+    .background {
+      background-image: linear-gradient(90.2deg, rgba(212, 215, 218, 0.79) 2.9%, rgba(144, 166, 187, 1) 22.5%, rgba(5, 45, 90, 0.58) 53.6%, rgba(127, 39, 39, 0.71) 83.1%, rgba(202, 75, 17, 1) 98.9%);
+    }
+
+    .card {
+      overflow: hidden;
+
+    }
+
+    img {
+      transition: 2s;
+    }
+
+    .card img:hover {
+      transform: scale(1.2);
+
+    }
+
+    .custom-link {
+      color: blue !important;
+      font-size: 20px;
+    }
+
+    .custom-link:hover {
+      font-weight: bold;
+      color: blueviolet !important;
+    }
+
+    .custom-pointer{
+      cursor: pointer !important;
+    }
+
+    .custom-nav2 {
+      /* height: 35px; */
+      background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(177, 231, 251, 1) 0.3%, rgba(251, 177, 216, 1) 90.1%);
+      position: sticky !important;
+      top: 0;
+      z-index: 2;
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root" class="background"></div>
+
+  <!-- bootstrap js CDN  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- boxicon  -->
+  <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+
+</body>
+
+</html>

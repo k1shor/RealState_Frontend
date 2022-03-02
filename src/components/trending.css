@@ -1,0 +1,27 @@
+.slick-img{
+    height: 100px;
+}
+
+.slick-prev{
+    left:0% !important;
+}
+
+
+.slick-next{
+    right:1% !important;
+}
+
+
+.slick-slide{
+    padding: 0 10px;
+}
+
+.slick-list{
+    margin:0 2em;
+}
+
+.slick-next:before,.slick-prev:before{
+    color: blue !important;
+    font-size: 30px;
+}
+
